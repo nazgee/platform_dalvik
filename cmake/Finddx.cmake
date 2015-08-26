@@ -1,0 +1,5 @@
+if(IN_SHASHLIK)
+    set(DX_JAR ${CMAKE_BINARY_DIR}/src/deps/dalvik/dx/dx.jar)
+else()
+    message(FATAL_ERROR "Currently not supported")
+endif()
